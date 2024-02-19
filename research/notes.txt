@@ -1,0 +1,42 @@
+
+features are modelled as graphs...
+- each tile has a top, bottom, left, right, and potentially multiple center nodes
+- the tiles thus have the following topology
+      T         T
+      |         |
+  L---C---R L---C---R
+      |         |
+      B         B
+- feature graph edges are implied from this topology. any 
+  adjacent nodes with the same type are connected
+
+when placing a tile in a given location, we need to validate its allowed
+- abutting tile sections must have the same type
+
+when placing a tile, we need to add sections to existing features, or create new features
+- for roads + cities...
+    - each feature is modelled as a graph
+    - for each edge section
+        - if there is an existing feature in the abutting tile, add the section to the feature
+        - otherwise, create a new feature
+    - for each center section
+        - create a section node
+        - for each side section
+            - if the types are the same, connect the node
+            - if another node has already been connected, do a merge
+    - merge any features connected through the center node
+
+when placing a tile, we need to determine if we've completed any features
+- a graph feature is complete when every node is closed
+
+assume each tile consists of top, bottom, left, right, and multiple center
+
+
+
+other ideas
+===========
+
+instead of having an implied topology where tile section connectivity is implied through the 
+center node, we could explicitly specify connectivity. this is a little more flexible but not 
+needed at all
+

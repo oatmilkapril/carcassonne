@@ -1,0 +1,244 @@
+{
+  "tiles": [
+    {
+      "id": 1,
+      "quantity": 1,
+      "topSection": "city",
+      "leftSection": "city",
+      "bottomSection": "city",
+      "rightSection": "city",
+      "centerSections": ["city"],
+      "hasCoatOfArms": true
+    },
+    {
+      "id": 2,
+      "quantity": 1,
+      "topSection": "road",
+      "leftSection": "road",
+      "bottomSection": "road",
+      "rightSection": "road",
+      "centerSections": [],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 3,
+      "quantity": 3,
+      "topSection": "city",
+      "leftSection": "city",
+      "bottomSection": "field",
+      "rightSection": "city",
+      "centerSections": ["city"],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 4,
+      "quantity": 1,
+      "topSection": "city",
+      "leftSection": "city",
+      "bottomSection": "field",
+      "rightSection": "city",
+      "centerSections": ["city"],
+      "hasCoatOfArms": true
+    },
+    {
+      "id": 5,
+      "quantity": 1,
+      "topSection": "city",
+      "leftSection": "city",
+      "bottomSection": "road",
+      "rightSection": "city",
+      "centerSections": ["city"],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 6,
+      "quantity": 2,
+      "topSection": "city",
+      "leftSection": "city",
+      "bottomSection": "road",
+      "rightSection": "city",
+      "centerSections": ["city"],
+      "hasCoatOfArms": true
+    },
+    {
+      "id": 7,
+      "quantity": 4,
+      "topSection": "field",
+      "leftSection": "road",
+      "bottomSection": "road",
+      "rightSection": "road",
+      "centerSections": [],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 8,
+      "quantity": 1,
+      "topSection": "field",
+      "leftSection": "city",
+      "bottomSection": "field",
+      "rightSection": "city",
+      "centerSections": ["city"],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 9,
+      "quantity": 2,
+      "topSection": "field",
+      "leftSection": "city",
+      "bottomSection": "field",
+      "rightSection": "city",
+      "centerSections": ["city"],
+      "hasCoatOfArms": true
+    },
+    {
+      "id": 10,
+      "quantity": 8,
+      "topSection": "road",
+      "leftSection": "field",
+      "bottomSection": "road",
+      "rightSection": "field",
+      "centerSections": ["road"],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 11,
+      "quantity": 3,
+      "topSection": "city",
+      "leftSection": "city",
+      "bottomSection": "field",
+      "rightSection": "field",
+      "centerSections": ["city", "field"],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 12,
+      "quantity": 2,
+      "topSection": "city",
+      "leftSection": "city",
+      "bottomSection": "field",
+      "rightSection": "field",
+      "centerSections": ["city", "field"],
+      "hasCoatOfArms": true
+    },
+    {
+      "id": 13,
+      "quantity": 3,
+      "topSection": "city",
+      "leftSection": "city",
+      "bottomSection": "road",
+      "rightSection": "road",
+      "centerSections": ["city", "road"],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 14,
+      "quantity": 2,
+      "topSection": "city",
+      "leftSection": "city",
+      "bottomSection": "road",
+      "rightSection": "road",
+      "centerSections": ["city", "road"],
+      "hasCoatOfArms": true
+    },
+    {
+      "id": 15,
+      "quantity": 9,
+      "topSection": "field",
+      "leftSection": "road",
+      "bottomSection": "road",
+      "rightSection": "field",
+      "centerSections": ["road"],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 16,
+      "quantity": 2,
+      "topSection": "city",
+      "leftSection": "field",
+      "bottomSection": "field",
+      "rightSection": "city",
+      "centerSections": [],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 17,
+      "quantity": 3,
+      "topSection": "field",
+      "leftSection": "city",
+      "bottomSection": "field",
+      "rightSection": "city",
+      "centerSections": ["field"],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 18,
+      "quantity": 2,
+      "topSection": "field",
+      "leftSection": "field",
+      "bottomSection": "road",
+      "rightSection": "field",
+      "centerSections": ["monastery"],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 19,
+      "quantity": 4,
+      "topSection": "field",
+      "leftSection": "field",
+      "bottomSection": "field",
+      "rightSection": "field",
+      "centerSections": ["monastery"],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 20,
+      "quantity": 5,
+      "topSection": "city",
+      "leftSection": "field",
+      "bottomSection": "field",
+      "rightSection": "field",
+      "centerSections": ["field"],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 21,
+      "quantity": 3,
+      "topSection": "city",
+      "leftSection": "field",
+      "bottomSection": "road",
+      "rightSection": "road",
+      "centerSections": ["road"],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 22,
+      "quantity": 3,
+      "topSection": "city",
+      "leftSection": "road",
+      "bottomSection": "road",
+      "rightSection": "field",
+      "centerSections": ["road"],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 23,
+      "quantity": 3,
+      "topSection": "city",
+      "leftSection": "road",
+      "bottomSection": "road",
+      "rightSection": "road",
+      "centerSections": ["road"],
+      "hasCoatOfArms": false
+    },
+    {
+      "id": 24,
+      "quantity": 4,
+      "topSection": "city",
+      "leftSection": "road",
+      "bottomSection": "field",
+      "rightSection": "road",
+      "centerSections": ["road"],
+      "hasCoatOfArms": false
+    }
+  ]
+}

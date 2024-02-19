@@ -1,0 +1,42 @@
+
+
+there are 72 land tiles, in a stack
+
+one tile is the diesgnated start tile 
+
+there are 40 meeples
+- there are 8 of each yellow, red, green, blue, and black
+- each player starts with 7 meeples
+- each player uses their 1 remaining meeple to mark their score on the board
+
+on a player's turn...
+- must draw 1 land tile from the stack and place it in the landscape
+- the landscape must be continued
+- may place a meeple onto the tile just placed
+- score any features completed by the tile placement
+
+placing meeples:
+- a meeple may be placed on a road segment if the road is unoccupied by another. it's called a 
+  highwayman
+- a meeple may be placed on a city section if the city is unoccupied by another. its called a 
+  knight
+- after a feature is scored, any meeple is removed
+
+features:
+- a road is considered completed when all nodes are connected to a city/monastery/village, or
+  when it loops onto itself
+- a road is worth 1 point per tile
+- a city is considered completed when it is surrounded by walls and there are no internal gaps
+- a city is worth 2 point per tile + 2 points per coat of arms
+- a monastery is considered completed when it is surrounded by tiles
+- a monastery is worth 1 point per tile surrounding it including the monastery, so 9 points
+
+if a feature has multiple meeples, the player with the most meeples gets the points. if its a tie,
+both players get the points
+
+end of game:
+- each incomplete road is worth one point per tile
+- each incomplete city is worth 1 point per tile, and 1 point per coat of arms
+- each incomplete monastery is worth one point per surrounding tile
+
+
